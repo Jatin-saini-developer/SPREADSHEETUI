@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaRegBell } from "react-icons/fa";
+
 
 const Header = () => {
   return (
@@ -28,13 +30,13 @@ const Header = () => {
 
         {/* Bell Button */}
         <div>
-          <button className="text-gray-600 hover:text-black">🔔</button>
+          <button className="text-gray-600 hover:text-black"><FaRegBell /></button>
         </div>
 
         {/* User Info */}
         <div className="flex items-center gap-2">
           <img
-            src="https://via.placeholder.com/32"
+            src="./Ellipse 1.png"
             alt="user"
             className="w-8 h-8 rounded-full object-cover"
           />
